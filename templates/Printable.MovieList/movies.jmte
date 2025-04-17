@@ -7,9 +7,7 @@
     <div id="mainContainer">  
 ${foreach movies movie}
       <div id="movie_${index_movie}" class="Container">
- 
-
-        <div class="poster">
+  <div class="poster">
             <img alt="poster"
             src="images/${movie;copyArtwork(type=POSTER, thumb=true, width=180, escape=true)}" />
           </a>
