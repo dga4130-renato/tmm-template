@@ -3,7 +3,6 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <script type="text/javascript">
      $(document).ready(function() {startUP();});
-     $(window).on(&#39;hashchange&#39;, function() {checkHash();});
     </script>
     <div id="mainContainer">  
 ${foreach movies movie}
